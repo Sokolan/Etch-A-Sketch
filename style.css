@@ -9,16 +9,15 @@ body {
     align-items: stretch;
     min-height: 100%;
     font-family: 'Roboto', sans-serif;
-    gap: 10px;
 }
 
 html, body {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .header {
-    background-color: gold;
+    background-color: #2D3142;
     margin-top: 0;
 }
 
@@ -29,9 +28,12 @@ html, body {
 }
 
 .info {
+    padding: 20px;
+    background-color: #4F5D75;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
 }
 
 .buttons-container {
@@ -41,27 +43,29 @@ html, body {
 }
 
 button {
-    background-color: rgb(73, 73, 73);
-    border-radius: 10px;
-    border: 2px solid rgb(255, 68, 68);
+    background-color: DBDFE6;
+    border-radius: 20px;
     font-weight: 700;
-    color: wheat;
+    color: rgb(78, 52, 4);
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-
+.grid-section{
+    padding: 30px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+}
 
 .grid-container {
-    align-self: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-self: center;
     height: 720px;
     width: 720px;
-    border: 2px solid blue;
-    margin: 10px;
+    border: 2px solid black;
 }
 
 .container-row {
@@ -71,17 +75,20 @@ button {
 }
 
 .sketch-square {
-    display: flex;
-    min-width: 0px;
-    background-color: rgb(92, 89, 89);
-    border: 1px solid gray;
+    background-color: FFFFFF;
+    border: 1px solid #141414;
 }
 
 .footer {
-    background-color: rgb(59, 54, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF8354;
+    height: 50px;
 }
 
 .footer > h4 {
     text-align: center;
     font-weight: 600;
+    color: whitesmoke;
 }

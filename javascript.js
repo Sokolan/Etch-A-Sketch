@@ -22,14 +22,9 @@ function createGrid(size = 16){
 function changeColor(e){
     const currColor = this.style.backgroundColor;
 
-    if(currColor === ''){
-        const randomColor = Math.floor(Math.random()*16777215).toString(16);
-        this.style['background-color'] = '#' + randomColor;
-        this.classList.add(`${randomColor}`);
-        
-        return;
-    }
-    
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    this.style['background-color'] = '#' + randomColor;
+    this.classList.add(`${randomColor}`);    
 }
 
 function setUpGrid(size = 16){
