@@ -24,6 +24,7 @@ html, body {
 
 .header > h1 {
     font-weight: 800;
+    color: rgb(255, 244, 222);
     text-align: center;
 }
 
