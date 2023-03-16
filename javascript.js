@@ -10,8 +10,8 @@ function createGrid(size = 16){
             const sketchSquare = document.createElement('div');
             sketchSquare.classList.add('sketch-square');
             
-            sketchSquare.style.width = `${height}px`;
-            sketchSquare.style.height = `${height}px`;
+            sketchSquare.style.width = `${height-2}px`;
+            sketchSquare.style.height = `${height-2}px`;
 
             containerRow.appendChild(sketchSquare);
         }
@@ -24,7 +24,7 @@ function changeColor(e){
 
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
     this.style['background-color'] = '#' + randomColor;
-    this.classList.add(`${randomColor}`);    
+    // this.classList.add(`${randomColor}`);    
 }
 
 function setUpGrid(size = 16){

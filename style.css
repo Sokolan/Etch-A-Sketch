@@ -62,20 +62,24 @@ button {
 .grid-container {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-self: stretch;
     height: 720px;
     width: 720px;
-    border: 2px solid black;
+    border: 7px solid rgb(83, 83, 83);
+    background-color: grey;
+    padding: 2px;
+    border-radius: 10px;
 }
 
 .container-row {
     display: flex;
     min-width: 0px;
     min-height: 0px;
+    justify-content: space-around;
 }
 
 .sketch-square {
-    background-color: FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #141414;
 }
 
