@@ -1,0 +1,87 @@
+html{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    gap: 10px;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: gold;
+    margin-top: 0;
+}
+
+
+.header > h1 {
+    font-weight: 800;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+button {
+    background-color: rgb(73, 73, 73);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 68, 68);
+    font-weight: 700;
+    color: wheat;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.grid-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 720px;
+    width: 720px;
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+.container-row {
+    display: flex;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.sketch-square {
+    display: flex;
+    min-width: 0px;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.footer {
+    background-color: rgb(90, 90, 90);
+}
+
+.footer > h4 {
+    text-align: center;
+    font-weight: 600;
+}
